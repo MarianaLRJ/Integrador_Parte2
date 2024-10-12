@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Contactos() {
+const Contactos = () => {
   return (
     <div>Contactos</div>
-   
   )
 }
 

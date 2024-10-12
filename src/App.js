@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Alta from './Pages/Alta';
 import Contactos from './Pages/Contactos';
 import {Home} from './Pages/Home';
-
+import Footer from './componentes/Footer';
+import { Banner } from './componentes/Banner';
 
 function App() {
   return (
@@ -16,7 +17,11 @@ function App() {
       <Route path='/Contactos'element= {Contactos}/>
       <Route path='/Alta'element= {Alta}/>
     </Routes>
-    </BrowserRouter>  
+    </BrowserRouter> 
+    <Banner/>
+    <Footer/>
+
+    
     </div>
   );
 }
