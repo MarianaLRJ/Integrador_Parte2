@@ -7,15 +7,17 @@ import {Home} from './Pages/Home';
 import Footer from './componentes/Footer';
 import { Banner } from './componentes/Banner';
 
+
 function App() {
   return (
     <div className="App"> 
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path='/'element= {Home}/>
-      <Route path='/Contactos'element= {Contactos}/>
-      <Route path='/Alta'element= {Alta}/>
+      <Route exact path='/'element= {<Home/>}/>
+      <Route exact path='/Home'element= {<Home/>}/>
+      <Route exact path='/Contactos'element= {<Contactos/>}/>
+      <Route exact path='/Alta'element= {<Alta/>}/>
     </Routes>
     </BrowserRouter> 
     <Banner/>
