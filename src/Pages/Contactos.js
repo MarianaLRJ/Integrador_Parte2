@@ -3,9 +3,9 @@ import React from 'react'
  export const Contactos = () => {
   return (
     <center>
-      <div className='container' style={{width:"60%", marginTop:"20", background:"#CACACC", padding:"20"}}>
+      <div className='container1' style={{width:"60%", marginTop:"20", background:"#CACACC", padding:"20"}}>
         <form id="Formulario">
-          <h1 className='h1'>
+          <h1 className='h11'>
           Dejanos un mensaje
           </h1>
           <input style={{marginBottom:20}} className= "form-control form-control-lg"  type="text" placeholder='Nombre y Apellido'required/>

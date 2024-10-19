@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.h11{
+  font-size: 30px;
+  color: rgb(81, 88, 88);
+}
+.card-Descripcion{
+  color: rgb(88, 84, 84);
+}
+h2{
+  font-size: 20px;
+}
+

@@ -38,44 +38,6 @@ export const Home = () => {
       </button>
     </div>
     </div>
-    <h1 className='text-center '>
-Elige entre nuestras promos del MES DE LA MADRE!!!
-</h1>
- 
-<div className='container'>
-<div className='row gy-3'>
-<div className='col-md-4'>
-<div className="card" >
-  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_765700-MLA76522337325_052024-T.webp" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./Alta.js" className="btn btn-primary">Comprar</a>
-  </div>
-</div>
-</div>
-<div className='col-md-4'>
-<div className="card" >
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePry-p8FhSB4Cmff_mkP1Mf4WiqCJhQpBOw&s" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./Alta.js" className="btn btn-primary">Comprar</a>
-  </div>
-</div>
-</div>
-<div className='col-md-4'>
-<div className="card" >
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh5pnrhyAqjCOKthz0yN4GD8cSqbsBC-OPVw&s" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Comprar</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./Alta.js" className="btn btn-primary">Comprar</a>
-  </div>
-</div>
-</div>
-</div>
-</div>
 </>
 )
     

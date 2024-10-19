@@ -5,8 +5,9 @@ import Alta from './Pages/Alta';
 import Contactos from './Pages/Contactos';
 import {Home} from './Pages/Home';
 import Footer from './componentes/Footer';
-
-
+import Servicios from './Pages/Servicios';
+import Login from './Pages/Login';
+import Carrito from './Carrito/Carrito';
 
 
 function App() {
@@ -16,9 +17,12 @@ function App() {
     <Navbar/>
     <Routes>
       <Route exact path='/'element= {<Home/>}/>
-      <Route exact path='/Home'element= {<Home/>}/>
-      <Route exact path='/Contactos'element= {<Contactos/>}/>
-      <Route exact path='/Alta'element= {<Alta/>}/>
+      <Route exact path='/home'element= {<Home/>}/>
+      <Route exact path='/servicios'element= {<Servicios/>}/>
+      <Route exact path='/contactos'element= {<Contactos/>}/>
+      <Route exact path='/alta'element= {<Alta/>}/>
+      <Route path='/login' element={<Login />} />
+      <Route path='/carrito' element={<Carrito />} />
     </Routes>
     </BrowserRouter> 
   

@@ -2,11 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const navbar = () => {
+  const buscar = () => {
+    alert("Buscando...");
+}
   return (
     <>
   <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <Link className="navbar-brand" >Relax Spa</Link>
+    <Link className="navbar-brand" to="/Login">LOGIN</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -16,22 +19,34 @@ const navbar = () => {
           <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
         </li>
         <li className="nav-item">
+          <Link className="nav-link" to="/Servicios">Servicios</Link>
+        </li>
+        <li className="nav-item">
           <Link className="nav-link" to="/Contactos">Contacto</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/Alta">Alta</Link>
         </li>
+
         <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Más
           </Link>
-          <ul class="dropdown-menu">
+          <ul className="dropdown-menu">
             <li><Link className="dropdown-item" >Nosotros</Link></li>
-            <li><Link className="dropdown-item" >Servicios</Link></li>
             <li><Link className="dropdown-item" >Galeria de fotos</Link></li>
           </ul>
         </li>
       </ul>
+      <li>
+      <Link to="/Carrito">
+      <i class=" bi-cart-check-fill">
+         Carrito                      
+      </i>
+      </Link>
+      </li>
+      <input className="buscar" type="search" id="search" name="search" />
+      <button onClick={buscar} className="boton">Buscar</button>
     </div>
   </div>
 </nav>
