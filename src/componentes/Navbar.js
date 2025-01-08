@@ -25,18 +25,12 @@ const navbar = () => {
           <Link className="nav-link" to="/Contactos">Contacto</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/Alta">Alta</Link>
+          <Link className="nav-link" to="/Usuarios">Usuarios</Link>
         </li>
-
-        <li className="nav-item dropdown">
-          <Link class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Más
-          </Link>
-          <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" >Nosotros</Link></li>
-            <li><Link className="dropdown-item" >Galeria de fotos</Link></li>
-          </ul>
+        <li className="nav-item">
+          <Link className="nav-link" to="/Formulario">Registrate</Link>
         </li>
+       
       </ul>
       <li>
       <Link to="/Carrito">
